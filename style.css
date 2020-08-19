@@ -1,0 +1,153 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+  padding: 1rem 15rem ;
+
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  color: white;
+  padding: 1.7rem;
+
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: #E964A1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* end navigation */ 
+
+
+/* start banner area */ 
+
+.first-h1 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #e2dbdb;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.second-h1 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #E964A1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+hr {
+  border-color: #E964A1;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: #E964A1;
+  border-color:#E964A1;
+}
+
+.btn-primary {
+  background-color: #E964A1;
+  border: #E964A1;
+  transition: border .4s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #E964A1;
+  border-color: #E964A1;
+  transform: scale(1.1);
+}
+
+.btn-primary:active {
+  background-color: #E964A1;
+  border-color: #E964A1;
+}
+
+.btn-primary:focus {
+  background-color: #E964A1;
+  border-color: #E964A1;
+}
+
+.btn-primary:visited {
+  background-color: #E964A1;
+  border-color: #E964A1;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+  background-color: #E964A1;
+  border-color: #E964A1;
+}
+/* end banner area */ 
+
+
+/* start rules area */
+
+.site-main .about-area{
+  padding: 12rem 5rem;
+}
+
+.site-main .about-area .about-title {
+  color: #E964A1
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  font: bold 24pt 'Montserrat', arial, sans-serif;
+  position: relative;
+  padding-left: 60px;
+  counter-increment: my-awesome-counter;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+ol li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  font-family: 'Montserrat', serif;
+  line-height: 1;
+}
+
+li {
+  font: 12pt 'Montserrat', arial, sans-serif;
+  color: rgb(211, 210, 210);
+  padding-left: 60px;
+}
+
+
+/* end about area */
