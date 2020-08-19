@@ -110,10 +110,12 @@ hr {
 
 .site-main .about-area{
   padding: 12rem 5rem;
+  margin-top: 12rem;
 }
 
 .site-main .about-area .about-title {
-  color: #E964A1
+  color: #E964A1;
+  background-color: rgb(94, 94, 94, 0.5);
 }
 
 ol {
@@ -126,12 +128,15 @@ ol {
 }
 
 ol li {
-  font: bold 24pt 'Montserrat', arial, sans-serif;
+  font: 24pt 'Montserrat', arial, sans-serif;
+  font-weight: 300;
   position: relative;
   padding-left: 60px;
   counter-increment: my-awesome-counter;
   display: flex;
   margin-bottom: 0.5rem;
+  line-height: 1.5em;
+  height: auto;
 }
 
 ol li::before {
@@ -149,5 +154,9 @@ li {
   padding-left: 60px;
 }
 
+.site-main .about-area .about-picture img {
+  margin: auto;
+
+}
 
 /* end about area */

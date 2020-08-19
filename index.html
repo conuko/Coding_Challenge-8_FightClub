@@ -14,14 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
 
     <!-- animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- My stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
-    <!-- ======================================== Start Header Area ========================================  -->
+    <!-- =============================================== Start Header Area ===============================================  -->
 
     <header class="header-area">
       <div class="main-menu">
@@ -37,10 +37,10 @@
                 <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
+                <a class="nav-link" href="#">the rules</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">fight!</a>
+                <a class="nav-link" href="#">contact</a>
               </li>
             </ul>
           </div>
@@ -48,9 +48,9 @@
       </div>
     </header>
 
-    <!-- ======================================== End Header Area ========================================  -->
+    <!-- ================================================ End Header Area ==============================================  -->
 
-    <!-- ======================================== Start Main Area ========================================  -->
+    <!-- ================================================ Start Main Area ==============================================  -->
     <main class="site-main">
     <!-- ======================================== Start Banner Area ========================================  -->
       <section class="site-banner">
@@ -63,7 +63,7 @@
             <div class="buffer col-12"></div>
             <section class="text-center col-12">
               <hr>
-              <a href="https://mailchi.mp/737254a205f5/startupidea">
+              <a href="https://www.youtube.com/watch?v=dC1yHLp9bWA">
                 <button class="btn btn-primary btn-xl">Fight!</button>
               </a>
             </section>
@@ -76,49 +76,54 @@
       <section class="about-area">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-12 col-md-12">
-            </div>
-            <div class="col-lg-6 col-md-12 about-title">
-              <h2 class="text-uppercase pt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 about-title">
+              <h2 data-aos="fade-down" class="text-uppercase pt-5">
                 The Rules
               </h2>
               <ol class="paragraph py-4 w-75">
-                <li class="first-rule">
+                <li data-aos="fade-down" class="first-rule">
                   You do not talk about fight-club.
                 </li>
-                <li class="second-rule">
+                <li data-aos="fade-down" class="second-rule">
                   You do not talk about fight-club.
                 </li>
-                <li class="third-rule">
+                <li data-aos="fade-down" class="third-rule">
                   Someone yells "Stop!", goes limp, taps out, the fight is over.
                 </li>
-                <li class="forth-rule">
+                <li data-aos="fade-down" class="forth-rule">
                   Only two guys to a fight.
                 </li>
-                <li class="fifth-rule">
+                <li data-aos="fade-down" class="fifth-rule">
                   One fight at a time.
                 </li>
-                <li class="sixth-rule">
+                <li data-aos="fade-down" class="sixth-rule">
                   No shirt, No shoes, No RATs.
                 </li>
-                <li class="seventh-rule">
+                <li data-aos="fade-down" class="seventh-rule">
                   The fight will go as long as it has to.
                 </li>
-                <li class="eigth-rule">
+                <li data-aos="fade-down" class="eigth-rule">
                   If this is your first night at fight club, you have to fight.
                 </li>
               </ol>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 about-picture" align="center">
+            <img src="soap2.png" class="img-fluid" alt="soap">
           </div>
         </div>
 
       </section>
     <!-- ======================================== End Rules Area ========================================  -->
 
-    <!-- ======================================== End Main Area ========================================  -->
+    <!-- ================================================== End Main Area ==================================================  -->
     </main>
   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
